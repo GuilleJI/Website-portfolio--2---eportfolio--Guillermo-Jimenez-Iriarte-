@@ -11,16 +11,24 @@
 
 /* Navigation Bar */ 
 
+/*==================================================================================================*/
+
 nav ul {
     list-style-type: none; /* Property removes the bullets from the list */
     margin: 0; 
     padding: 0; 
     overflow: hidden; 
     background-color: #666;
+
+    /*properties in the ul class make the navigation bar stay at the top (or bottom) of the page. */
+    position: fixed; 
+    top:0; 
+    width: 100%; 
 }
 
 li { /* Display the list horizontally, by converting the list elements to floating objects. */
     float: left; 
+    border-right: 1px solid #666; /*property is added to the tabs to display a brown border between the tabs*/
 }
 
 a { /* adding color to the list to gove it the look and feel of a Navbar*/
@@ -42,3 +50,5 @@ li a:hover {
     background: #111; 
 }
 
+
+/*==================================================================================================*/
