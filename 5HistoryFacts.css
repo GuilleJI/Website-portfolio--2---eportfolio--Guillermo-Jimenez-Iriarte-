@@ -29,7 +29,7 @@ a { /* adding color to the list to gove it the look and feel of a Navbar*/
     background-color: #b8b4b4; /*property adds the grey color in the background*/  
 }
 
-li a { 
+li a { /* The li a class has some porperties that can be applied to the text in the Navbar. */
     display: block; 
     color: white; 
     text-align: center; 
