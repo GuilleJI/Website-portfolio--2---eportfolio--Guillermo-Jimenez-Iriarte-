@@ -11,10 +11,12 @@
 
 /* Navigation Bar */ 
 
-nav {
+nav ul {
     list-style-type: none; /* Property removes the bullets from the list */
     margin: 0; 
     padding: 0; 
+    overflow: hidden; 
+    background-color: #666;
 }
 
 li { /* Display the list horizontally, by converting the list elements to floating objects. */
@@ -24,6 +26,19 @@ li { /* Display the list horizontally, by converting the list elements to floati
 a { /* adding color to the list to gove it the look and feel of a Navbar*/
     display: block; 
     padding: 10px; /* padding added to each of the elements to make their arrangement look good*/
-    background-color: #dddddd; /*property adds the grey color in the background*/  
+    background-color: #b8b4b4; /*property adds the grey color in the background*/  
+}
+
+li a { 
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+}
+
+/* Change the link color to #111 (black) on hover*/
+li a:hover {
+    background: #111; 
 }
 
