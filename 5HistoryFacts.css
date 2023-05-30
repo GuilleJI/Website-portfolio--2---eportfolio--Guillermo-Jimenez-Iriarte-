@@ -7,3 +7,23 @@
     Filename: 5HistoryFacts.css
 */ 
 
+
+
+/* Navigation Bar */ 
+
+nav {
+    list-style-type: none; /* Property removes the bullets from the list */
+    margin: 0; 
+    padding: 0; 
+}
+
+li { /* Display the list horizontally, by converting the list elements to floating objects. */
+    float: left; 
+}
+
+a { /* adding color to the list to gove it the look and feel of a Navbar*/
+    display: block; 
+    padding: 10px; /* padding added to each of the elements to make their arrangement look good*/
+    background-color: #dddddd; /*property adds the grey color in the background*/  
+}
+
