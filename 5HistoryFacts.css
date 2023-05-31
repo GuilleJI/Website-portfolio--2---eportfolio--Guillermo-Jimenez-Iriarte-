@@ -24,11 +24,16 @@ nav ul {
     position: fixed; 
     top:0; 
     width: 100%; 
+
+    
 }
 
 li { /* Display the list horizontally, by converting the list elements to floating objects. */
     float: left; 
     border-right: 1px solid #666; /*property is added to the tabs to display a brown border between the tabs*/
+    
+    /*cursor pointer */ 
+    cursor: pointer; 
 }
 
 a { /* adding color to the list to gove it the look and feel of a Navbar*/
