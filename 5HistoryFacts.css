@@ -8,9 +8,8 @@
 */ 
 
 
-
+/*=================================================================================================*/
 /* Navigation Bar */ 
-
 /*==================================================================================================*/
 
 nav ul {
@@ -55,5 +54,29 @@ li a:hover {
     background: #111; 
 }
 
+/*==================================================================================================*/
+/*==================================================================================================*/
+
 
 /*==================================================================================================*/
+/*Title*/
+/*==================================================================================================*/
+
+.title{ 
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/320/174/486/black-and-white-bokeh-book-pages-books-wallpaper-preview.jpg');
+    padding: 200px; /*added padding in order to help cover the image background */
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /*adjust the width of the image background*/ 
+}
+
+h1 {
+    text-align: center; /* aligned text title to the center*/
+    color: beige;
+}
+
+.author {
+    text-align: center;  /* aligned author name to the center*/
+    font-size: small;
+    color:beige;
+}
+
