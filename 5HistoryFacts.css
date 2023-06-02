@@ -12,23 +12,9 @@
 /* Body */ 
 /*==================================================================================================*/
 
-body {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
-    
-    header { grid-area: 1 / 1 / 2 / 4; }
-    .Section1 { grid-area: 2 / 2 / 3 / 3; }
-    .Section2 { grid-area: 3 / 2 / 4 / 3; }
-    .Section3 { grid-area: 4 / 2 / 5 / 3; }
-    .Section4 { grid-area: 5 / 2 / 6 / 3; }
-    .Section5 { grid-area: 6 / 2 / 7 / 3; }
-    .Section6 { grid-area: 7 / 2 / 8 / 3; }
-    footer { grid-area: 8 / 1 / 9 / 4; }
-
+body, html{ 
+    height: 100vh; 
+}
     
 
 
