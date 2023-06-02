@@ -15,6 +15,22 @@
 body, html{ 
     height: 100vh; 
 }
+
+body{ 
+    margin: 0; 
+    display: grid; 
+    grid-template-columns: 20% 80% 20%; 
+    grid-template-rows: auto auto auto auto auto auto auto 20%;
+    grid-template-areas: 
+        "header header header"
+        "section1 section1 section1"
+        "section2 section2 section2"
+        "section3 section3 section3"
+        "section4 section4 section4"
+        "section5 section5 section5"
+        "section6 section6 section6"
+        "footer footer footer"; 
+}
     
 
 
@@ -76,6 +92,10 @@ li a:hover {
 /*Title*/
 /*==================================================================================================*/
 
+header{ 
+    grid-area: header; 
+}
+
 .title{ 
     background-color: cornsilk;
     border: 3px solid cornsilk;
@@ -110,3 +130,51 @@ h1 {
 }
 
 
+
+.Section1{
+    grid-area: section1;
+
+
+}
+
+
+
+.Section2{
+    grid-area: section2;
+
+
+}
+
+
+
+.Section3{
+    grid-area: section3;
+
+
+}
+
+
+.Section4{
+    grid-area: section4;
+
+
+}
+
+.Section5{
+    grid-area: section5;
+
+
+}
+
+.Section6{
+    grid-area: section6;
+
+
+}
+
+
+footer{
+    grid-area: footer;
+
+
+}
