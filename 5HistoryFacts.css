@@ -20,7 +20,7 @@ body, html{
 body{ 
     margin: 0; 
     display: grid; 
-    grid-template-columns: 20% 60% 20%; 
+    grid-template-columns: 25% 50% 25%; 
     grid-template-rows: auto auto auto auto auto auto auto auto;
     grid-template-areas: 
         "header header header"
@@ -145,14 +145,14 @@ h1 {
 .Section1{
     grid-area: section1;
     text-align: center; 
-
-
+    padding-top: 60px;
 }
 
 
 
 .Section2{
     grid-area: section2;
+    text-align: center;
 
 
 }
@@ -161,6 +161,7 @@ h1 {
 
 .Section3{
     grid-area: section3;
+    text-align: center;
 
 
 }
@@ -168,23 +169,36 @@ h1 {
 
 .Section4{
     grid-area: section4;
+    text-align: center;
 
 
 }
 
 .Section5{
     grid-area: section5;
+    text-align: center;
 
 
 }
 
 .Section6{
     grid-area: section6;
+    text-align: center; 
+    padding-bottom: 60px;
 
 
 }
 
+img{
+    width: 400px; 
+    height: 650px; 
+    object-fit: cover;
+}
 
+.introduction-img {
+    width: max-content;
+    height: max-content;
+}
 /*======================================================================================*/
 /*Footer CSS */ 
 /*======================================================================================*/
@@ -241,7 +255,6 @@ footer, .footer-title{
 
 .footer-title{
     font-size: x-large;
-    border: 3px solid green;
 }
 
 .footer-author{
