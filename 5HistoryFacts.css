@@ -190,9 +190,13 @@ h1 {
 }
 
 img{
-    width: 400px; 
-    height: 650px; 
-    object-fit: cover;
+    
+
+    height: auto;
+      
+    max-width: 100%;
+     
+      
 }
 
 .introduction-img {
