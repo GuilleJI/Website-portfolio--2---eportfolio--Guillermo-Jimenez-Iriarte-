@@ -14,6 +14,7 @@
 
 body, html{ 
     max-height: 100vh; 
+    background-color: rgb(33, 32, 32);
     
 }
 
@@ -158,53 +159,48 @@ h1 {
     text-align: center; 
     padding-top: 60px;
     margin: 10px;
-    
+    color:aliceblue;  
 }
 
 
 
 .Section2{
     grid-area: section2;
-    text-align: center;
-    margin: 40px;
-
-
+    text-align: justify;
+    margin: 30px;
+    color:aliceblue;
 }
 
 
 
 .Section3{
     grid-area: section3;
-    text-align: center;
-    margin: 40px;
-
-
+    text-align: justify;
+    margin: 30px;
+    color:aliceblue;
 }
 
 
 .Section4{
     grid-area: section4;
-    text-align: center;
-    margin: 40px;
-
-
+    text-align: justify;
+    margin: 30px;
+    color:aliceblue;
 }
 
 .Section5{
     grid-area: section5;
-    text-align: center;
-    margin: 40px;
-
-
+    text-align: justify;
+    margin: 30px;
+    color:aliceblue;
 }
 
 .Section6{
     grid-area: section6;
-    text-align: center; 
-    margin: 40px;
-    padding-bottom: 60px;
-
-
+    text-align: justify; 
+    margin: 30px;
+    padding-bottom: 200px;
+    color:aliceblue;
 }
 
 img{
@@ -212,6 +208,9 @@ img{
     height: auto;
       
     max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
       
 }
 
@@ -219,6 +218,18 @@ img{
     width: max-content;
     height: max-content;
 }
+
+figcaption {
+    font-size: smaller;
+    color:aliceblue;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+
 /*=======================================================================================*/
 /*=======================================================================================*/
 
