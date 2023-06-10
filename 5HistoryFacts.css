@@ -92,6 +92,12 @@ li a:hover {
 /*==================================================================================================*/
 
 
+
+
+
+
+
+
 /*==================================================================================================*/
 /*Title*/
 /*==================================================================================================*/
@@ -151,6 +157,8 @@ h1 {
     grid-area: section1;
     text-align: center; 
     padding-top: 60px;
+    margin: 10px;
+    
 }
 
 
@@ -158,6 +166,7 @@ h1 {
 .Section2{
     grid-area: section2;
     text-align: center;
+    margin: 40px;
 
 
 }
@@ -167,6 +176,7 @@ h1 {
 .Section3{
     grid-area: section3;
     text-align: center;
+    margin: 40px;
 
 
 }
@@ -175,6 +185,7 @@ h1 {
 .Section4{
     grid-area: section4;
     text-align: center;
+    margin: 40px;
 
 
 }
@@ -182,6 +193,7 @@ h1 {
 .Section5{
     grid-area: section5;
     text-align: center;
+    margin: 40px;
 
 
 }
@@ -189,6 +201,7 @@ h1 {
 .Section6{
     grid-area: section6;
     text-align: center; 
+    margin: 40px;
     padding-bottom: 60px;
 
 
@@ -196,11 +209,9 @@ h1 {
 
 img{
     
-
     height: auto;
       
     max-width: 100%;
-     
       
 }
 
