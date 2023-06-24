@@ -16,6 +16,7 @@
 body, html{ 
     max-height: 100vh; 
     background-color: rgb(33, 32, 32);
+    font-family: Arial, Helvetica, sans-serif; /*main font for the website*/
     
 }
 
@@ -158,9 +159,11 @@ h1 {
 .Section1{
     grid-area: section1;
     text-align: center; 
+    line-height: 1.6;
     padding-top: 60px;
-    margin: 10px;
-    color:aliceblue;  
+    margin: 25px;
+    color:aliceblue; 
+    font-weight: bold; /* embolden the text*/
 }
 
 
@@ -169,6 +172,7 @@ h1 {
     grid-area: section2;
     text-align: left; /*aligns the position of the text*/
     text-indent: 25px; /* indents the first line of the text*/
+    line-height: 1.6; /*this property specifies the height of a line*/
     margin: 30px;
     color:aliceblue;
 }
@@ -179,6 +183,7 @@ h1 {
     grid-area: section3;
     text-align: left;
     text-indent: 25px;
+    line-height: 1.6;
     margin: 30px;
     color:aliceblue;
 }
@@ -188,6 +193,7 @@ h1 {
     grid-area: section4;
     text-align: left;
     text-indent: 25px;
+    line-height: 1.6;
     margin: 30px;
     color:aliceblue;
 }
@@ -196,6 +202,7 @@ h1 {
     grid-area: section5;
     text-align: left;
     text-indent: 25px;
+    line-height: 1.6;
     margin: 30px;
     color:aliceblue;
 }
@@ -204,11 +211,14 @@ h1 {
     grid-area: section6;
     text-align: left; 
     text-indent: 25px;
+    line-height: 1.6;
     margin: 30px;
     padding-bottom: 200px;
     color:aliceblue;
 }
 
+
+/*Images from each fact*/
 img{
     
     height: auto;
