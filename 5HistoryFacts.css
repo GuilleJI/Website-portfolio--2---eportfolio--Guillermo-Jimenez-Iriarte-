@@ -261,7 +261,7 @@ footer{
     grid-area: footer;
 
     background-size: cover; 
-    background-color: grey;
+    background-color: #666;
     
     padding: 60px 0;
      
@@ -326,5 +326,5 @@ footer, .footer-title{
 
 .footer-author{
     font-size: medium;
-    
+
 }
