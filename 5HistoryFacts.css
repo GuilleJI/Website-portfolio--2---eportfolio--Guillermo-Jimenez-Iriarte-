@@ -167,7 +167,8 @@ h1 {
 
 .Section2{
     grid-area: section2;
-    text-align: justify;
+    text-align: left; /*aligns the position of the text*/
+    text-indent: 25px; /* indents the first line of the text*/
     margin: 30px;
     color:aliceblue;
 }
@@ -176,7 +177,8 @@ h1 {
 
 .Section3{
     grid-area: section3;
-    text-align: justify;
+    text-align: left;
+    text-indent: 25px;
     margin: 30px;
     color:aliceblue;
 }
@@ -184,21 +186,24 @@ h1 {
 
 .Section4{
     grid-area: section4;
-    text-align: justify;
+    text-align: left;
+    text-indent: 25px;
     margin: 30px;
     color:aliceblue;
 }
 
 .Section5{
     grid-area: section5;
-    text-align: justify;
+    text-align: left;
+    text-indent: 25px;
     margin: 30px;
     color:aliceblue;
 }
 
 .Section6{
     grid-area: section6;
-    text-align: justify; 
+    text-align: left; 
+    text-indent: 25px;
     margin: 30px;
     padding-bottom: 200px;
     color:aliceblue;
